@@ -6,33 +6,7 @@
 
 /* Basic */
 
-#pates-a-tartiner svg {
-  height: 400px;
-  width: 250px ;
-  display: block;
-  margin : auto;
-}
 
-#biscuits-chocolates svg {
-  height: 400px;
-  width: 250px ;
-  display: block;
-  margin : auto;
-}
-
-#jus-orange svg {
-  height: 400px;
-  width: 250px ;
-  display: block;
-  margin : auto;
-}
-
-#yaourts-natures svg {
-  height: 400px;
-  width: 250px ;
-  display: block;
-  margin : auto;
-}
 
 	html, body {
 		min-width: 320px;
@@ -76,10 +50,3 @@
 				padding-top: 0;
 			}
 
-/* Button */
-
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"] {
-		padding: 0;
-	}
