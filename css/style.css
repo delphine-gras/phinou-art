@@ -472,10 +472,12 @@
 		background-position: center center;
 		background-color: white;
 	}
+
     .centerimage{
         text-align:center;
         display:block;
-    }
+	}
+	
 	.image {
 		border-radius: 4px;
 		border: 0;
@@ -583,9 +585,9 @@
 		vertical-align: middle;
 	}
 
-		ul.actions li:last-child {
-			padding-right: 0;
-		}
+	ul.actions li:last-child {
+		padding-right: 0;
+	}
 
 	ul.actions.small li {
 		padding: 0 0.5em 0 0;
@@ -1026,4 +1028,16 @@
 		float: left;
 		width: 50%;
 	}
-			   
+
+/* Row */
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	  }
+
+	.column {
+		float: center;
+		width: 33%;
+	  }
+	  
