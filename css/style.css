@@ -91,6 +91,7 @@
 	h2 {
 		font-size: 1.75em;
 		line-height: 1.5em;
+		margin-bottom: 0;
 	}
 
 	h3 {
@@ -99,7 +100,7 @@
 	}
 
 	h4 {
-		font-size: 1.1em;
+		font-size: 1.8em;
 		line-height: 1.5em;
 	}
 
@@ -479,6 +480,19 @@
 			}
 
 /* Image */
+	#fullpage {
+		display: none;
+		position: absolute;
+		z-index: 9999;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		background-size: contain;
+		background-repeat: no-repeat no-repeat;
+		background-position: center center;
+		background-color: white;
+	}
     .centerimage{
         text-align:center;
         display:block;
@@ -1032,7 +1046,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 3em 0em 4em;
+		padding-top: 3em;
 	}
 
 		.wrapper.style1 {
